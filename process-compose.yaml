@@ -1,0 +1,7 @@
+version: "0.5"
+
+processes:
+  x_open_browser:
+    command: sleep 10s; open http://localhost:8080
+  structurizr:
+    command: podman machine start; podman run -it --rm -p 8080:8080 -v .:/usr/local/structurizr docker.io/structurizr/lite

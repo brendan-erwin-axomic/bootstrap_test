@@ -8,6 +8,11 @@ Then `devenv up`.
 
 *OR*
 
+Install [Devbox](https://jetify-com.vercel.app/docs/devbox/installing_devbox/)
+Then `devbox services up`
+
+*OR*
+
 Install Docker and run `docker run -it --rm -p 8080:8080 -v .:/usr/local/structurizr structurizr/lite`
 
 
